@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 12px 100px;
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: 60px;
+    color: darkmagenta;
+}
+
+.navbar .nav {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: mediumorchid;
+}
