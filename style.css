@@ -31,3 +31,39 @@
     font-weight: bold;
     color: mediumorchid;
 }
+
+.header {
+    padding: 12px 100px;
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.2;
+}
+
+.text h1 {
+ font-size: 48px;
+ font-weight: bold;
+ color: darkslateblue;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: blueviolet;
+  display: flex;
+  width: 400px;
+}
+
+.button button {
+    margin-top: 8px;
+    padding: 2px 14px;
+    background-color: blueviolet;
+    border: 2px solid darkmagenta;
+    color: lightcoral;
+}
