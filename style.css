@@ -113,3 +113,18 @@ button:hover {
     border: solid darkgreen;
     border-radius: 8px;
 }
+
+.quotation {
+    padding: 24px 200px;
+    display: flex;
+    flex-direction: column;
+    color: darkgreen;
+    background-color: #d5f2bb;
+    font-size: 24px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quotation h6 {
+    margin-left: auto;
+}
