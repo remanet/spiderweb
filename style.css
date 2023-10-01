@@ -6,7 +6,7 @@
 
 .navbar {
     padding: 12px 100px;
-    background-color: plum;
+    background-color: #9fbf67;
     display: flex;
     justify-content: space-between;
 }
@@ -14,7 +14,7 @@
 .navbar .logo {
     font-size: x-large;
     font-weight: 60px;
-    color: darkmagenta;
+    color: darkgreen;
 }
 
 .navbar .nav {
@@ -29,12 +29,16 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    color: mediumorchid;
+    color: darkolivegreen;
+}
+
+a:hover {
+    color: darkgreen;
 }
 
 .header {
     padding: 12px 100px;
-    background-color: plum;
+    background-color: #9fbf67;
     display: flex;
     justify-content: space-between;
 }
@@ -44,26 +48,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    line-height: 1.2;
+    gap: 16px;
 }
 
 .text h1 {
  font-size: 48px;
  font-weight: bold;
- color: darkslateblue;
+ color: darkgreen;
 }
 
 .paragraph {
   font-size: 18px;
-  color: blueviolet;
+  color: darkolivegreen;
   display: flex;
-  width: 400px;
+  width: 350px;
 }
 
 .button button {
     margin-top: 8px;
     padding: 2px 14px;
-    background-color: blueviolet;
-    border: 2px solid darkmagenta;
-    color: lightcoral;
+    background-color: darkolivegreen;
+    border: 2px solid darkgreen;
+    color: #9fbf67;
 }
+
+button:hover {
+    background-color: darkgreen;
+}
+
