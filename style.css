@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #bedeaf;
 }
 
 .navbar {
@@ -9,12 +10,14 @@
     background-color: #9fbf67;
     display: flex;
     justify-content: space-between;
+    background-color: #9fbf67;
 }
 
 .navbar .logo {
     font-size: x-large;
     font-weight: 60px;
     color: darkgreen;
+    background-color: #9fbf67;
 }
 
 .navbar .nav {
@@ -23,6 +26,7 @@
     gap: 12px;
     display: flex;
     align-items: center;
+    background-color: #9fbf67;
 }
 
 .navbar a {
@@ -30,6 +34,11 @@
     font-size: 18px;
     font-weight: bold;
     color: darkolivegreen;
+    background-color: #9fbf67;
+}
+
+li {
+    background-color: #9fbf67;
 }
 
 a:hover {
@@ -49,20 +58,28 @@ a:hover {
     justify-content: center;
     align-items: flex-start;
     gap: 16px;
+    background-color: #9fbf67;
 }
 
 .text h1 {
  font-size: 48px;
  font-weight: bold;
  color: darkgreen;
+ background-color: #9fbf67;
 }
 
-.paragraph {
+.paragraph p {
   font-size: 18px;
   color: darkolivegreen;
   display: flex;
   width: 350px;
+  background-color: #9fbf67;
 }
+
+.button {
+    background-color: #9fbf67;
+}
+
 
 .button button {
     margin-top: 8px;
@@ -115,7 +132,7 @@ button:hover {
 }
 
 .quotation {
-    padding: 24px 200px;
+    padding: 24px 250px;
     display: flex;
     flex-direction: column;
     color: darkgreen;
@@ -125,6 +142,49 @@ button:hover {
     font-style: italic;
 }
 
+.quotation p {
+    background-color: #d5f2bb;
+}
+
 .quotation h6 {
     margin-left: auto;
+    background-color: #d5f2bb;
+}
+
+.action {
+    padding: 24px 40px;
+    margin: 24px 120px;
+    border: solid darkgreen;
+    border-radius: 8px;
+    background-color: #9fbf67;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.calltolook p {
+    line-height: 1.2;
+    background-color: #9fbf67;
+    color: #d5f2bb;
+}
+
+.calltolook h5 {
+    background-color: #9fbf67;
+    line-height: 1.2;
+    color: #d5f2bb;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9fbf67;
+}
+
+.lookton {
+    flex-shrink: 0;
+    margin-top: 8px;
+    padding: 2px 14px;
+    border: 2px solid darkgreen;
+    color: darkolivegreen;
 }
